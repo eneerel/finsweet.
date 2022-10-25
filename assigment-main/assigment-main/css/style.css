@@ -1,0 +1,610 @@
+
+body{
+    margin: 0;
+    font-family:'popins', sans-serif; ;
+}
+
+/*  header*/
+.main-nav{
+    flex-direction: space-around;
+    align-items: center;
+}
+.nav-items{
+    align-items: flex-end;
+}
+.nav-items li{
+    list-style: none;
+    align-items: end;
+}
+.main-nav a {
+    color:#010d17;
+}
+.call-to{
+    background-color: rgb(253, 234, 203);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.call-to a{
+    color: rgb(235, 134, 18);
+}
+a{
+    text-decoration: none;
+}
+/*layots*/
+.row{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.col-2{
+width: calc(100%/2 - 40px);
+flex: 1 500;
+
+}
+.col-3{
+width: calc(100%/3 - 40px);
+flex: 1 30%;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 3rem;
+}
+h1{
+    font-size: 4rem;
+    color: #04223b;
+}
+/*hero-section*/
+.hero-section{
+    background-color:#DCEAF5;
+    margin:0;
+}
+.hero-section .col-2{
+    align-self: center;
+
+}
+.hero-section-img img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.hero-section p{
+    padding: 20px;
+}
+
+.see-our{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.See-all{
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+
+}
+/*service*/
+.service-section{
+    padding: 80px;
+}
+.service-section img{
+    width: 100%;
+    border-radius: 20px;
+}
+.service-section a{
+    color: orange;
+}
+.service-section a::after{
+    content: "\2192" ;
+}
+/*solution-section*/
+.solution-section{
+    background-color: #DCEAF5;
+    padding: 80px;
+}
+.solution-section .col-3{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.solution-p{
+    margin-top: 40px;
+align-items: center;
+}
+
+.atag{
+    border: grey groove 1px;
+    border-radius: 20px;
+    padding: 10px;
+    color: grey;
+}
+.bussiness{
+    color: orange;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.experience{
+padding: 80px;
+}
+.experience img{
+    border-radius: 20px;
+    vertical-align: bottom;
+
+}
+.exper{
+    position: relative;
+}
+.exp-img::after{
+    position: absolute;
+    content: "";
+    background-color: orange;
+    inset: 0% 75% 0 0 ;
+    mix-blend-mode: multiply;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+.experience .point{
+    color: orange;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/*strategy-section*/
+.strategy-section{
+    padding: 80px;
+}
+.strategy-section .container{
+    background-color: #DCEAF5;
+    position: relative;
+    padding: 40px;
+}
+
+.ribbon{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+.a-tag{
+    color: orange;
+}
+.strategy-im{
+    position: relative;
+    align-items: center;
+}
+.strategy-im img{
+    width: 100%;
+}
+.image-s::after{
+    position: absolute;
+    content: "";
+    background-color: orange;
+    inset: 0 82% 0 0 ;
+    mix-blend-mode: multiply;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+/*vaccanies*/
+.vaccanies{
+    background-color: orange;
+    height: 400px;
+    color: white;
+
+}
+.vaccanies-back{
+    background-image: url(../images/experience-image.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin: 0 0;
+}
+.vaccanies a{
+    background-color: white;
+    border-radius: 20px;
+    color: orange;
+    padding: 10px;
+}
+
+.img{
+    position: relative;
+}
+.play-video{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 2rem;
+
+}
+/*CEO SECTION*/
+.ceo-section{
+    padding: 80px;
+}
+.ceo{
+    color: orange;
+    padding-left: 98px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.image{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.image-pro{
+    width: 60px;
+    border-radius: 40px;
+    
+}
+/*NEWS SECTION*/
+.news-section img{
+    width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.news-section a{
+    color: orange;
+}
+.news-section a::after{
+    content: "\2192" ;
+}
+.news-section{
+    background-color: #DCEAF5;
+    padding: 40px;
+}
+.news-section .col-3{
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+/*FOOTER */
+.footer-section{
+    background-color: #052c4d;
+    color: white;
+    padding: 80px;
+    position: relative;
+}
+.footer-section::before{
+    position: absolute;
+    content: "";
+    background-color: orange;
+    inset: 10% 0% 40% 97%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.footer-section::after{
+    position: absolute;
+    content: "";
+    background-color: orange;
+    inset: 60% 97% 0% 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer-priv{
+    flex-direction: space-between;
+    padding: 20px;
+}
+.footer-section li {
+list-style: none;
+padding: 10px ;
+}
+.footer-section a{
+    color: white;
+ 
+}
+
+
+.type{
+    background-color: white;
+    padding: 10px 10px;
+    color: grey ;
+    border-radius: 20px;
+    background-color:  rgb(250, 251, 253);
+    border: none;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 40%;
+}
+.sub{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+}
+.fin-logo{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.nav li{
+    padding: 10px;
+}
+.news-section-p{
+    padding: 20px;
+}
+
+.detailst{
+    padding: 40px;
+}
+.detailst .r{
+background-color: #DCEAF5;
+border-radius: 20px;
+padding: 40px;
+}
+.p-b{
+    height: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:  rgb(250, 251, 253);
+    border: none;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: grey;
+}
+.apply-now{
+    padding: 40px;
+    font-weight: 800;
+    margin-bottom: 40px
+}
+.submit{
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.detailst-p{
+    color: orange;
+}
+.detailsts{
+    align-self: center center;
+}
+.detalist-d{
+align-self: flex-start;
+}
+
+
+/* CONTACT US PAGE */
+
+.contact-input{
+    background-color: rgb(247, 248, 249);
+    border: none;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: grey;
+}
+.last-input{
+    background-color:  rgb(250, 251, 253);
+    border: none;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 40%;
+    color: grey;
+}
+.img-fluid{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.submit-a{
+    color: white;
+    background-color: rgb(255, 145, 0);
+    padding: .8rem;
+    border-radius: 30px;
+}
+.map{
+    margin-bottom: 80px;
+}
+.location{
+    margin: 80px;
+}
+.location-p{
+    padding: 30px;
+}
+/*BLOG vision*/
+.vision-section{
+    background-color: #DCEAF5;
+    padding: 80px;
+}
+.pro{ 
+ width: 30px;
+ border-radius: 30px;
+ margin: 0;
+}
+.vision-section .col-2{
+    margin: 20px;
+    align-items: center;
+}
+.colimage{
+    width: 100%;
+    align-items: center;
+}
+.vision-section a{
+    color: orange;
+}
+.vision-section a::after{
+    content: "\2192";
+}
+.profile{
+    padding-top: 40px;
+}
+.news{
+    padding: 40px;
+}
+.news img{
+    width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.news a{
+    color: orange;
+}
+.news a::after{
+    content: "\2192" ;
+}
+.news .col-3{
+    background-color: #DCEAF5;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+/*CAREER */
+.passionate{
+    padding: 80px;
+}
+.positions{
+    padding: 80px;
+}
+.passionate h2{
+    font-size: 2rem;
+    }
+    .passionate-p{
+    align-self: center;
+    padding: 20px;
+    letter-spacing: .05rem;
+    
+    }
+    .passionate img{
+        width: 100%;
+        border-radius: 20px;
+        vertical-align: bottom;
+    }
+    .breaking-l{
+        position: relative;
+    }
+    .breaking-img::after{
+        position: absolute;
+        content: "";
+        background-color: orange;
+        inset: 0 85% 0 0 ;
+        mix-blend-mode: multiply;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        vertical-align: bottom;
+    }
+    .view-a{
+        color: white;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .c5 {
+    background-color: #DCEAF5;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 20px;
+
+    }
+    .positions .apply a{
+        color: orange;
+    }
+    /*SERVICE*/
+    .breaking-solutions{
+        padding: 60px;
+    }
+    .business-strategy{
+     padding: 60px;
+    }
+    .Digitalization-section{
+        padding: 60px;
+    }
+    .risk-assessment{
+        padding: 60px;
+    }
+    .artificial{
+        padding: 60px;
+    }
+    .smart-contracts{
+        padding: 60px;
+    }
+    .breaking-solution img{
+        width: 100%;
+        border-radius: 20px;
+
+   }
+        .breaking-l{
+            position: relative;
+        }
+        .breaking-img::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 0 80% 0 0 ;
+            mix-blend-mode: multiply;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+           
+        }
+        .right{
+            position: relative;
+        }
+        .right img{
+            width: 100%;
+        }
+        .image::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 20% 88% 55% 0 ;
+            mix-blend-mode: multiply;
+            border-radius: 5px;
+        }
+        .left{
+            position: relative;
+        }
+        .left img{
+            width: 100%;
+        }
+        .col-2 .p{
+            align-items: center;
+        }
+        .image-l::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 10% 0 50% 90% ;
+            mix-blend-mode: multiply;
+            border-radius: 5px;   
+        }
+        .work-a{
+            color: white;
+            background-color: rgb(255, 145, 0);
+            padding: .8rem;
+            border-radius: 30px;
+        }
+        /* Learn more*/
+        .picture{
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+         .figma{
+            max-width: 800px;
+            margin: 0 auto;
+         }
+         /**/
+         .figma-plugin{
+            margin: 4rem;
+         }
+         .fin-p h1{
+            margin-top: 0;
+         }
+         .call-to a{
+            color: orange;
+         }
